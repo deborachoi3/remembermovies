@@ -1,14 +1,24 @@
 $("button").click(function(){
-    console.log("button")
+   var movies = $("input").val();
+   findMovie(movies);
 });
 
 function findMovie(search){
-    fetch("http://www.omdbapi.com/?apikey=8e9ded79&t=")
+    fetch("https://www.omdbapi.com/?apikey=8e9ded79&t=" + search)
     .then(function(response) {
         return response.json();
     })
     .then(function(data) {
         console.log(data);
+        data["Title"]
+        $("#Title").html("Title" + ":" + data["Title"]);
+        data["Released"]
+        $("#Released").html("Released" + ":" + data["Released"]);
+        data["Plot"]
+        $("#Plot").html("Plot" + ":" + data["Plot"]);
+        data["Poster"]
+        $("#Poster").html("<img src='" + data["Poster"]+"'>");
     });
 }
+
 

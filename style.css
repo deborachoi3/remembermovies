@@ -1,0 +1,15 @@
+h1{  
+    color:aliceblue;
+    font-size:60px;
+    border:dotted 10px;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/220118/pexels-photo-220118.jpeg?cs=srgb&dl=blurred-blurry-bokeh-220118.jpg&fm=jpg");
+}
+.button {
+    background-color: #7b8db0;
+}
+#Title{
+    color: aliceblue;
+    font-size:30px;
+} 
