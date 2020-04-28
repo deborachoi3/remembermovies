@@ -10,14 +10,14 @@ function findMovie(search){
     })
     .then(function(data) {
         console.log(data);
+        data["Poster"]
+        $("#Poster").html("<img src='" + data["Poster"]+"'>");
         data["Title"]
         $("#Title").html("Title" + ":" + data["Title"]);
         data["Released"]
         $("#Released").html("Released" + ":" + data["Released"]);
         data["Plot"]
         $("#Plot").html("Plot" + ":" + data["Plot"]);
-        data["Poster"]
-        $("#Poster").html("<img src='" + data["Poster"]+"'>");
     });
 }
 

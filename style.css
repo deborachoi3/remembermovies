@@ -9,7 +9,20 @@ body{
 .button {
     background-color: #7b8db0;
 }
+#Poster{
+    color: aliceblue;
+    font-size:20px;
+} 
 #Title{
     color: aliceblue;
-    font-size:30px;
+    font-size:20px;
 } 
+#Released{
+    color: aliceblue;
+    font-size:20px;
+}
+#Plot{
+    color: aliceblue;
+    font-size:20px;
+} 
+
