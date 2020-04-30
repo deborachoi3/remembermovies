@@ -2,6 +2,7 @@ h1{
     color:aliceblue;
     font-size:60px;
     border:dotted 10px;
+    display: inline-block;
 }
 body{
     background-image: url("https://images.pexels.com/photos/220118/pexels-photo-220118.jpeg?cs=srgb&dl=blurred-blurry-bokeh-220118.jpg&fm=jpg");
@@ -18,6 +19,26 @@ body{
     font-size:20px;
 } 
 #Released{
+    color: aliceblue;
+    font-size:20px;
+}
+#Rated{
+    color: aliceblue;
+    font-size:20px;
+}
+#Runtime{
+    color: aliceblue;
+    font-size:20px;
+}
+#Genre{
+    color: aliceblue;
+    font-size:20px;
+}
+#Directors{
+    color: aliceblue;
+    font-size:20px;
+}
+#Actors{
     color: aliceblue;
     font-size:20px;
 }

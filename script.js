@@ -16,6 +16,16 @@ function findMovie(search){
         $("#Title").html("Title" + ":" + data["Title"]);
         data["Released"]
         $("#Released").html("Released" + ":" + data["Released"]);
+        data["Rated"]
+        $("#Rated").html("Rated" + ":" + data["Rated"]);
+        data["Runtime"]
+        $("#Runtime").html("Runtime" + ":" + data["Runtime"]);
+        data["Genre"]
+        $("#Genre").html("Genre" + ":" + data["Genre"]);
+        data["Directors"]
+        $("#Directors").html("Directors" + ":" + data["Directors"]);
+        data["Actors"]
+        $("#Actors").html("Actors" + ":" + data["Actors"]);
         data["Plot"]
         $("#Plot").html("Plot" + ":" + data["Plot"]);
     });
