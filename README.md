@@ -1,15 +1,10 @@
-# Product name: Remeber Movies
+# Product name: Remember Movies
 
 Team Members: Debora, Vilma, Christine
 
-Purpose Statement: 
+Purpose Statement: Easily remember movies you just watched by searching up the movie title
 
-Description of your product
+Description of your product:
 
-Easily remember movies you just watched by searching up the title of the movie and it shows the plot and movie poster.
+The website shows information about a movie the user searches up such as the movie plot, actors, genre, etc.
 
-Next Steps
-
-- [ ] Implement basic API call
-- [x] Implement click handler
-- [ ] Research the API
